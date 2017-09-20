@@ -10,6 +10,6 @@ public class HelloController {
 	 @RequestMapping("/") 
 	 public String hello(@RequestParam("name") String userName, Model model) {
 		  model.addAttribute("message",userName+"님 안녕하세요!");
-		  return "hello";
+		  return "resultPage";
 		 }
 }
